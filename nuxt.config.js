@@ -28,7 +28,16 @@ export default {
     // https://go.nuxtjs.dev/typescript
     "@nuxt/typescript-build",
     "@nuxtjs/svg",
+    "@nuxtjs/fontawesome",
   ],
+
+  fontawesome: {
+    icons: {
+      solid: true,
+      regular: true,
+      brands: true,
+    },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["nuxt-icon"],
